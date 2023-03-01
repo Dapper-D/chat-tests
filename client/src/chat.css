@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: end;
+  height: 80vh;
+  gap: 1rem;
+}
+
+.left {
+  border-right: 1px solid grey;
+  height: 80vh;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  width: 10vw;
+  position: relative;
+}
+
+.username {
+  cursor: pointer;
+  background-color: rgb(128, 128, 128, 0.1);
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1rem;
+  margin-bottom: 1rem;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  width: 100vw;
+  border: 1px solid blue;
+}
+
+.wrapper {
+  display: flex;
+}
